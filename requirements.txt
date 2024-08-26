@@ -1,0 +1,10 @@
+pandas
+numpy
+xgboost
+lightgbm
+scikit-learn
+matplotlib
+seaborn
+requests
+certifi
+selenium

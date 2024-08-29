@@ -88,7 +88,7 @@ class NepseDataFetcher:
                         )
                     )
                     next_button.click()
-                    time.sleep(3)  # Adjust sleep time if needed
+                    time.sleep(3)
                 except Exception as e:
                     print(f"Error finding or clicking the Next page button: {e}")
                     break
@@ -257,7 +257,7 @@ class NepseDataFetcher:
                         )
                     )
                     next_button.click()
-                    time.sleep(3)  # Adjust sleep time if needed
+                    time.sleep(3)
                 except Exception as e:
                     print(f"Error finding or clicking the Next page button: {e}")
                     break
@@ -343,7 +343,7 @@ class NepseDataFetcher:
                         )
                     )
                     next_button.click()
-                    time.sleep(2)  # Adjust sleep time if needed
+                    time.sleep(2)
                     current_page += 1
                 except Exception as e:
                     print(f"Error finding or clicking the Next page button: {e}")
